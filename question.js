@@ -43,7 +43,7 @@ const questions = [
         //github repoName
         type: 'input',
         message: 'Enter your github reponame.',
-        name: 'repo name',
+        name: 'repoName',
         validate: (reponame) => {
             if (reponame) {
                 return true;
@@ -148,8 +148,8 @@ const questions = [
     {
     // Tests
     type: 'input',
-    name: 'Test',
-    message: 'TEST used',
+    name: 'test',
+    message: 'How to test your project?',
    default: 'npm test'
     },
     {
