@@ -43,9 +43,10 @@ ${answers.usage}
 ## Tests
 ${answers.test}
 ## Author Contact
-Contact the author with any questions! < br >
+Contact the author with any questions! 
+
     Github link: [${answers.userName.toLowerCase()}](https://github.com/${answers.userName.toLowerCase()})<br>
-        Email: ${answers.email}
+        Email: ${answers.Email}
 ## License
 This project is[${answers.Licence}](https://choosealicense.com/licenses/${answers.Licence}/) licensed.<br />
             Copyright © [${answers.authorName}](https://github.com/${answers.userName})

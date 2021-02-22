@@ -5,7 +5,7 @@ const questions = [
         //Name
         type: 'input',
         message: 'What is your Full  Name?',
-        name: 'Full Name',
+        name: 'authorName',
         validate: (name) => {
             const result = name.match(/^[a-zA-Z]+ [a-zA-Z]+$/g);  //stack over flow:- (https://stackoverflow.com/questions/11522529/regexp-for-checking-the-full-name)
             if (result) {

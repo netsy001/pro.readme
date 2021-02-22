@@ -1,7 +1,7 @@
 
-REGTWHR;
+TO GENERATE PROFESSIONAL README FILE;
 
-[![github - follow](https://img.shields.io/github/followers/rege?label = Follow & logoColor=purple & style=social)](https://github.com/rege)
+[![github - follow](https://img.shields.io/github/followers/netsy001?label = Follow & logoColor=purple & style=social)](https://github.com/netsy001)
     [![license](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://choosealicense.com/licenses/undefined/)
 
 ## Table of Content
@@ -16,32 +16,33 @@ REGTWHR;
 [License](#License)
 
 ## Project Links
-https://github.com/rege/undefined<br>
+https://github.com/netsy001/undefined<br>
 
 ## Screenshots - Demo
-<kbd>![screenshot-demo1](hyh)</kbd>
+<kbd>![screenshot-demo1](C:\Users\Lenovo\November-24\pro.readme\img\img1.png)</kbd>
 
 ## Project Objective
-rhrehr
+to generate the readme file
   
 ## User Story
-hrhre
+to help generate professional readme me file
 
 ## Installation
-hrthr
+step 1
 
 ## Usage
-gtrhtr
+can use to generate readme file
 
 ## Tests
 undefined
 ## Author Contact
-Contact the author with any questions! < br >
-    Github link: [rege](https://github.com/rege)<br>
-        Email: undefined
+Contact the author with any questions! 
+
+    Github link: [netsy001](https://github.com/netsy001)<br>
+        Email: nettem.surendra@gmail.com
 ## License
 This project is[MIT](https://choosealicense.com/licenses/MIT/) licensed.<br />
-            Copyright © [undefined](https://github.com/rege)
+            Copyright © [Surendra Nettam](https://github.com/netsy001)
 
                 
-<i>This README was generated with ❤️ by undefined</i ></p >; 
+<i>This README was generated with ❤️ by Surendra Nettam</i ></p >; 
