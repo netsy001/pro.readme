@@ -45,7 +45,7 @@ Email: nettem.surendra@gmail.com
 
 ## License
 This project is [MIT](https://choosealicense.com/licenses/MIT/) licensed.<br />
-Copyright © [SURENDRA NETTAM](https://github.com/netsy001)
+Copyright © [Surendra NEttam](https://github.com/netsy001)
 
                 
-<p><i>This README was generated with ❤️ by SURENDRA NETTAM</i ></p >; 
+<p><i>This README was generated with ❤️ by Surendra NEttam</i ></p >; 
