@@ -31,9 +31,9 @@ const questions = [
         //github username
         type: 'input',
         message: 'Enter your github username.',
-        name: 'username',
-        validate: (username) => {
-            if (username) {
+        name: 'userName',
+        validate: (userName) => {
+            if (userName) {
                 return true;
             }
             return 'Please enter valid your github username!';

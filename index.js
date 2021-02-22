@@ -4,6 +4,7 @@ var fs = require('fs');
 var util = require('util');
 var questions = require('./question');
 var generateREADME = require('./template');
+const path = require('path');
 // create writeFile function using promises instead of a callback function
 var writeFileAsync = util.promisify(fs.writeFile);
 
@@ -21,11 +22,12 @@ var writeFileAsync = util.promisify(fs.writeFile);
 //   init();
 
 
-function writeToFile(answers) {
-  fs.writeFile('./template.js' , answers, function(err){
+function writeToFile(fileName, answers) {
+  fs.writeFile(path.join(__dirname, fileName) , answers, function(err){
     if(err) {
       return console.log(err);
     }
+    console.log(answers);
     console.log('Successfully wrote');
   })
 }
@@ -34,7 +36,7 @@ const init = () => {
   // promptUser();
    inquirer.prompt(questions)
    .then(function(answers) {
-     writeToFile('./readme.md', generateREADME(answers));
+     writeToFile('README.md', generateREADME(answers));
    })
   }
 
