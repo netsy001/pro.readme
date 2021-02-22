@@ -1,5 +1,5 @@
 
-hgfhdjtyjtyj
+THE PROFESSIONAL README GENERATOR
 
 
 ![license](https://img.shields.io/badge/License-MIT-brightgreen.svg)
@@ -22,16 +22,16 @@ https://github.com/netsy001/pro.readme
 <kbd>![screenshot-demo1](./img/img1.png)</kbd>
 
 ## Project Objective
-fgghfhfgfg
+To create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
   
 ## User Story
-gfgdggb ggrhtrrt
+AS A developer, I WANT a README generator. SO, THAT I can quickly create a professional README for a new project.
 
 ## Installation
-gthtrhrjhstrjrs
+In order to develop a README Generator we need to instal visual studio code the code editor which is recommended. Github is also necessary. We also need to install the node dependencies.
 
 ## Usage
-hhjtyjtyjtjjdytjty
+In order to develop a README Generator we need to instal visual studio code the code editor which is recommended. Also require following technologies node.js, npm inquirer, Javascript, Markdowns. Github is also necessary. We also need to install the node dependencies.For this project we highly recommend to get checkout npm docs and google npm inquirer so its very easy to understand the inquirer prompts.for including the badges highly recommend to watch `https://www.youtube.com/watch?v=P8xMWWfbvR4&t=244s`.
 
 ## Tests
 npm test
@@ -41,11 +41,11 @@ Contact the author with any questions!
 
 Github link: [netsy001](https://github.com/netsy001)
     
-Email: ne@gmail.com
+Email: nettem.surendra@gmail.com
 
 ## License
 This project is [MIT](https://choosealicense.com/licenses/MIT/) licensed.<br />
-Copyright © [Surendra Nettam](https://github.com/netsy001)
+Copyright © [SURENDRA NETTAM](https://github.com/netsy001)
 
                 
-<p><i>This README was generated with ❤️ by Surendra Nettam</i ></p >; 
+<p><i>This README was generated with ❤️ by SURENDRA NETTAM</i ></p >; 
