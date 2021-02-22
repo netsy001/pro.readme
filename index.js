@@ -18,7 +18,6 @@ var writeFileAsync = util.promisify(fs.writeFile);
 //       .then(() => console.log('Successfully wrote to README.md'))
 //       .catch((err) => console.error(err));
 //   };
-  
 //   init();
 
 

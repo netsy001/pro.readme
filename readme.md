@@ -16,10 +16,12 @@ THE PROFESSIONAL README GENERATOR
 * [License](#License)
 
 ## Project Links
-https://github.com/netsy001/pro.readme
+https://github.com/netsy001/pro.readme,
+
+https://drive.google.com/file/d/1fdR1xT4iXXXMtmCdAPncx9z_R1gvN_WG/view
 
 ## Screenshots - Demo
-<kbd>![screenshot-demo1](./img/img1.png)</kbd>
+<kbd>![screenshot-demo1](./img/img1.png)</kbd><kbd>![screenshot-demo2](./img/DEMO.gif)</kbd>
 
 ## Project Objective
 To create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
@@ -45,7 +47,7 @@ Email: nettem.surendra@gmail.com
 
 ## License
 This project is [MIT](https://choosealicense.com/licenses/MIT/) licensed.<br />
-Copyright © [Surendra NEttam](https://github.com/netsy001)
+Copyright © [Surendra Nettam](https://github.com/netsy001)
 
                 
-<p><i>This README was generated with ❤️ by Surendra NEttam</i ></p >; 
+<p><i>This README was generated with ❤️ by Surendra Nettam</i ></p >; 
