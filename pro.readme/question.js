@@ -5,7 +5,7 @@ const questions = [
         //Name
         type: 'input',
         message: 'What is your Full  Name?',
-        name: 'Full Name',
+        name: 'authorName',
         validate: (name) => {
             const result = name.match(/^[a-zA-Z]+ [a-zA-Z]+$/g);  //stack over flow:- (https://stackoverflow.com/questions/11522529/regexp-for-checking-the-full-name)
             if (result) {
@@ -31,9 +31,9 @@ const questions = [
         //github username
         type: 'input',
         message: 'Enter your github username.',
-        name: 'username',
-        validate: (username) => {
-            if (username) {
+        name: 'userName',
+        validate: (userName) => {
+            if (userName) {
                 return true;
             }
             return 'Please enter valid your github username!';
@@ -43,7 +43,7 @@ const questions = [
         //github repoName
         type: 'input',
         message: 'Enter your github reponame.',
-        name: 'repo name',
+        name: 'repoName',
         validate: (reponame) => {
             if (reponame) {
                 return true;
@@ -148,8 +148,8 @@ const questions = [
     {
     // Tests
     type: 'input',
-    name: 'Test',
-    message: 'TEST used',
+    name: 'test',
+    message: 'How to test your project?',
    default: 'npm test'
     },
     {

@@ -42,6 +42,17 @@ app.post('/api/notes', function (req, res) {
     res.json(newNote);
   });
 });
+// app.delete('/api/notes/:id', function (req, res) {
+//   var newNote = req.body;
+//   newNote.id = uuidv4();
+//   console.log(newNote);
+//   notes.push(newNote);
+//   console.log(notes)
+//   fs.writeFile("./db.json", JSON.stringify(notes),  (err)=>{
+//     console.log("err:", err)
+//     res.json(newNote);
+//   });
+// });
 
 
 
