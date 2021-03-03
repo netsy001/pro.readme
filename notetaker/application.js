@@ -24,11 +24,11 @@ fs.readFile(`${__dirname}/db.json`, 'utf8', function (err, data) {
   console.log(data);
   notes = JSON.parse(data);
 });
-
+//GET method is used to get the data. '/' initial route
 app.get("/", function (req, res) {
   res.sendFile(path.join(__dirname, "index.html"))
 });
-
+//ADding routes 
 app.get("/notes", function (req, res) {
   res.sendFile(path.join(__dirname, "/public/notes.html"))
 });
@@ -36,19 +36,19 @@ app.get("/notes", function (req, res) {
 app.get("/api/notes/", function (req, res) {
   res.json(notes);
 });
-
+// In this part we are trying to send data from client side to server and add the data.
 app.post('/api/notes', function (req, res) {
-  var newNote = req.body;
-  newNote.id = uuidv4();
+  var newNote = req.body; //whatever we are requesting its being stored n newNote
+  newNote.id = uuidv4(); // Adding ID to the newDAta using uuid method.
   console.log(newNote);
   notes.push(newNote);
   console.log(notes)
-  fs.writeFile("./db.json", JSON.stringify(notes), (err) => {
+  fs.writeFile("./db.json", JSON.stringify(notes), (err) => { //newNotes are being send to db.json file
     console.log("err:", err)
     res.json(newNote);
   });
 });
-
+// same as above here we are deleteing the data. We are creating an id to delete the data using the id.
 app.delete('/api/notes/:id', function (req, res) {
   var noteId = req.params.id;
   let newId = 0;
